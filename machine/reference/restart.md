@@ -19,7 +19,7 @@ title: restart
        Argument(s) are one or more machine names.
        
 Restart a machine. Oftentimes this is equivalent to
-`docker-machine stop; docker-machine start`. But some cloud driver try to implement a clever restart which keeps the same
+`docker-machine stop; docker-machine start`. But some cloud drivers try to implement a clever restart which keeps the same
 ip address.
 
     $ docker-machine restart dev
